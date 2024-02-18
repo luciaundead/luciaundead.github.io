@@ -190,3 +190,9 @@ footer{
     justify-content: center;
     width: 500px;
 }
+
+@media (max-width: 768px){
+    .header-menu{
+        flex: column;
+    }
+}
