@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traslados en Ambulancia</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-menu">
+            <img src="imagenes/logo.jpg" alt="logo" width="150px"></img>
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Imagen principal-->
+    <main>
+        <div class="imagen-main">
+            <img src="imagenes/foto-header.jpg" width="100%"></img>
+        </div>
+    </main>
+    <!--Acerca de nosotros-->
+    <section id="nosotros">
+        <div><img src="imagenes/ambu.jpg" width="300px"></img></div>
+        <div>
+            <h1>Acerca de Nosotros</h1>
+            <p>Somos <strong>"Traslados en Ambulancia"</strong> y nos dedicamos al traslado de pacientes con 10 años de
+                experiencia en el sector. <br>
+                Ofrecemos ambulancias de mediana complejidad para traslados y soluciones personalizadas.<br>
+                Nuestro compromiso es brindar confort y calidad. <br>
+                Confíe en nosotros para trasladar a sus seres queridos con la excelencia que nos identifica.</p>
+        </div>
+    </section>
+    <!--Nuestros Servicios-->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+    </section>
+    <section id="listado-servicios">
+        <div class="servicios-listado">
+            <img src="imagenes/ambulancia.svg" class="icon-servicios" width="25px" height="auto">
+            <h4>Traslado de pacientes</h4>
+            <p>Con más de 10 años de experiencia en el campo de los traslados de pacientes, nuestro equipo de
+                profesionales está preparado para atender sus necesidades con la más alta calidad y profesionalismo.</p>
+        </div>
+        <div class="servicios-listado">
+            <img src="imagenes/silla-ruedas.svg" class="icon-servicios" width="25px" height="auto">
+            <h5>Equipamiento</h5>
+            <p>Nuestras unidades cuentan con el equipamiento adecuado para los distintos tipos de traslados o eventos.
+                Nuestra reputación habla por sí misma, con cientos de clientes satisfechos que han confiado en nosotros
+                para sus traslados en ambulancia.</p>
+        </div>
+        <div class="servicios-listado">
+            <img src="imagenes/hospital.svg" class="icon-servicios" width="25px" height="auto">
+            <h6>Cobertura</h6>
+            <p> Brindamos cobertura en Capital Federal, Gran Buenos Aires y en el interior del pais. No importa la hora
+                ni el lugar, estamos aquí para brindarle el cuidado que necesita, cuando más lo necesita. </p>
+        </div>
+    </section>
+    <!--Beneficios-->
+    <section id="beneficios">
+        <h2>Beneficios vigentes</h2>
+    </section>
+    <section class="beneficios-flex">
+        <div class="container-beneficios">
+            <img src="imagenes/foto-ambu.jpg">
+        </div>
+        <div class="container-beneficios">
+            <p class="text-beneficios">PROMOCION OBRAS SOCIALES 50% de descuento a pacientes de IOMA y PAMI.</p>
+        </div>
+    </section>
+    <!--Formulario de contacto-->
+    <section id="contacto">
+
+        <div class="form-container">
+            <div>
+                <h3>Contactanos</h3>
+            </div>
+            <form action="/form/enviar.php" class="formulario" method="post">
+                <div>
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre" name="nombre" class="form" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail" name="email" class="form" required>
+                </div>
+                <div>
+                    <label for="telefono"></label>
+                    <input type="number" placeholder="Telefono" name="telefono" class="form" required>
+                </div>
+                <div>
+                    <label for="asunto"></label>
+                    <input type="text" placeholder="Asunto" name="asunto" class="form" required>
+                </div>
+                <div>
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" placeholder="Mensaje" class="form" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.8836398163114!2d-58.64099366586194!3d-34.66057975184309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7521e21f571%3A0x6921a58997a287df!2sArist%C3%B3bulo%20del%20Valle%201020%2C%20B1712JAR%20Castelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1707761465817!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div><img src="imagenes/envelope.svg" class="icon-footer" width="15px" height="auto">
+            trasladosenambulancia@hotmail.com</img>
+        </div>
+        <div><img src="imagenes/tty-answer.svg" class="icon-footer" width="15px" height="auto"> 1161340968 |
+            1136719755</img>
+        </div>
+        <div><img src="imagenes/marker.svg" class="icon-footer" width="15px" height="auto"> Buenos Aires,
+            Argentina</img>
+        </div>
+    </footer>
+</body>
+
+</html>
