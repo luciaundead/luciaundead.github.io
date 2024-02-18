@@ -190,18 +190,3 @@ footer{
     justify-content: center;
     width: 500px;
 }
-
-@media (max-width: 768px){
-    .header-menu{
-        flex-direction: column;
-        width: 100%;
-    }
-    .nosotros{
-        flex-direction: column;
-        width: 100%;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-}
