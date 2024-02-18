@@ -193,6 +193,11 @@ footer{
 
 @media (max-width: 768px){
     .header-menu{
-        flex: column;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nosotros{
+        flex-direction: column;
+        width: 100%;
     }
 }
