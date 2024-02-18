@@ -200,4 +200,8 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
